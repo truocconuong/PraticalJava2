@@ -20,6 +20,8 @@ public class Main {
                     System.out.println("Mời bạn nhập id muốn sửa");
                     int id = sc.nextInt();
                     data.EditKhachHang(id);
+                    menu();
+                    break;
                 }
                 case 3 : {
                     data.DisplayAll();
